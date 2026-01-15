@@ -681,7 +681,7 @@
                     <h1>Hello, I'm Shovon Sharma</h1>
                     <p>
                         A Computer Science graduate with a passion for
-                        Deep-Learning,Blockchain and Linux.
+                        Machine Learning, Blockchain and Linux.
                     </p>
                     <div class="cta-buttons">
                         <a
@@ -716,7 +716,7 @@
                             I'm a recent CSE graduate from KUET with a strong foundation in programming and software development. 
                             My favourite topics include deep neural nets, blockchain technology, Database and Linux. 
                             I did my undergraduate thesis in NLP where I developed and trained my custom encoder-only model 
-                            (DMoEBERT) for natural language inference (NLI) from scratch and outperformed BERT-base and RoBERTa-base 
+                            (DMoEBERT) for natural language understanding (NLU) from scratch and outperformed BERT-base and RoBERTa-base 
                             in efficiency and resource-usage.
 
                         </p>
@@ -748,6 +748,26 @@
                 <div class="projects-container">
 
                     <div class="project-card">
+                        <h3 class="project-title">DMoEBERT</h3>
+                        <p class="project-description">
+                            Designed and trained a sparse MoE encoder-only model with dynamic expert routing for Natural Language Understanding e.g., 
+                            Natural Language Inference, Sentiment Analysis, Paraphrase Detection, and Topic Classification from scratch under tight compute constraints 
+                            outperforming BERT-base (LoRA PEFT) with 13.5× fewer FLOPs and 5.3× lower memory. 
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pytorch</span>
+                            <span class="tag">Hugging Face</span>
+                            <span class="tag">PEFT/LoRA</span>
+
+                        </div>
+                        <a href="https://github.com/shovonSharma/thesis_88/" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View
+                            Project
+                        </a>
+                    </div>
+
+                    <div class="project-card">
                         <h3 class="project-title">Stable Diffusion From Scratch</h3>
                         <p class="project-description">
                             Implemented a Denoising Diffusion Probabilistic Model (DDPM) using PyTorch,
@@ -755,14 +775,36 @@
                             two-stage optimized training approach. 
                         </p>
                         <div class="project-tags">
-                            <span class="tag">python</span>
-                            <span class="tag">pytorch</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Pytorch</span>
                         </div>
                         <a href="https://github.com/shovonSharma/Stable-difusion-from-scratch" class="project-link">
                             <i class="fas fa-external-link-alt"></i> View
                             Project
                         </a>
                     </div>
+
+
+                    <div class="project-card">
+                        <h3 class="project-title">Real-Time Microphone Transcription Web Application</h3>
+                        <p class="project-description">
+                            Built real-time browser-to-backend transcription system using WebSockets + Vosk ASR (CPU-only). 
+                            Implemented React frontend for live microphone capture, FastAPI backend for streaming audio, partial/final transcription, 
+                            SQLite session storage (transcript + metadata) and dockerized deployment with automated tests using pytest. 
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">WebSockets</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Sqlite</span>
+                        </div>
+                        <a href="https://github.com/shovonSharma/speech-transcriber" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View
+                            Project
+                        </a>
+                    </div>
+
 
                     <div class="project-card">
                         <h3 class="project-title">Sharma's Drive</h3>
@@ -794,24 +836,9 @@
                             <span class="tag">FastAPI</span>
                             <span class="tag">Sentence-Transformer</span>
                             <span class="tag">Streamlit</span>
+                            <span class="tag">Docker</span>
                         </div>
                         <a href="https://github.com/shovonSharma/Course-Finder" class="project-link">
-                            <i class="fas fa-external-link-alt"></i> View Project
-                        </a>
-                    </div>
-
-                    <div class="project-card">
-                        <h3 class="project-title">spicymew</h3>
-                        <p class="project-description">
-                            An application to manage an online food shop
-                            completely
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag">laravel</span>
-                            <span class="tag">sql</span>
-                            <span class="tag">php</span>
-                        </div>
-                        <a href="https://github.com/shovonSharma/spicymew" class="project-link">
                             <i class="fas fa-external-link-alt"></i> View Project
                         </a>
                     </div>
@@ -823,6 +850,21 @@
                         </p>
                         <div class="project-tags">
                             <span class="tag">python</span>
+                            <span class="tag">pytorch</span>
+                        </div>
+                        <a href="https://github.com/shovonSharma/llama_from_scratch" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+
+
+                    <div class="project-card">
+                        <h3 class="project-title">Text2SQL</h3>
+                        <p class="project-description">
+                            natural language to sql query
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Unsloth AI</span>
                             <span class="tag">pytorch</span>
                         </div>
                         <a href="https://github.com/shovonSharma/llama_from_scratch" class="project-link">
@@ -843,6 +885,23 @@
                             
                         </a>
                     </div>
+
+                    <div class="project-card">
+                        <h3 class="project-title">spicymew</h3>
+                        <p class="project-description">
+                            An application to manage an online food shop
+                            completely
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">laravel</span>
+                            <span class="tag">sql</span>
+                            <span class="tag">php</span>
+                        </div>
+                        <a href="https://github.com/shovonSharma/spicymew" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+
 
                 </div>
             </div>
